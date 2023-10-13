@@ -20,6 +20,7 @@ public class LadderMovement : MonoBehaviour
         if (isLadder && Mathf.Abs(vertical) > 0f)
         {
             isClimbing = true;
+            
         }
     }
 
@@ -33,6 +34,7 @@ public class LadderMovement : MonoBehaviour
         else
         {
             rb.gravityScale = 4f;
+            Debug.Log("g");
         }
         
         
